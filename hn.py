@@ -3,7 +3,11 @@ from urlparse import urlparse
 from lxml import html
 from lxml.cssselect import CSSSelector as css
 import requests
-''' look for amazon links in hn comments'''
+''' 
+
+look for amazon links in hn comments
+
+'''
 
 base_url = 'https://news.ycombinator.com/news'
 comment_url = 'https://news.ycombinator.com/item'
